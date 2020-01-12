@@ -1,4 +1,4 @@
-package com.bae.user.persistence.domain;
+package com.bae.persistence.domain;
 
 import java.util.List;
 
@@ -10,7 +10,7 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.OneToMany;
 
-import com.bae.vehicle.persistence.domain.Vehicle;
+import com.bae.persistence.domain.Vehicle;
 
 @Entity
 public class User {
@@ -110,17 +110,17 @@ public class User {
 				return false;
 		} else if (!id.equals(other.id))
 			return false;
-		if (name == null) {
-			if (other.name != null)
+		if (firstName == null) {
+			if (other.firstName != null)
 				return false;
-		} else if (!name.equals(other.name))
+		} else if (!firstName.equals(other.firstName))
 			return false;
 		return true;
 	}
 
 	@Override
 	public String toString() {
-		return "User [id=" + id + ", name=" + name + "]";
+		return "User [id=" + id + ", name=" + firstName + "]";
 	}
 
 }

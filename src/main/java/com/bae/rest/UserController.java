@@ -1,4 +1,4 @@
-package com.bae.user.rest;
+package com.bae.rest;
 
 import java.util.List;
 
@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 
-import com.bae.user.persistence.domain.User;
-import com.bae.user.service.UserService;
+import com.bae.persistence.domain.User;
+import com.bae.service.UserService;
 
 @RestController
 public class UserController {

@@ -1,4 +1,4 @@
-package com.bae.vehicle.rest;
+package com.bae.rest;
 
 import java.util.List;
 
@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 
-import com.bae.vehicle.persistence.domain.Vehicle;
-import com.bae.vehicle.service.VehicleService;
+import com.bae.persistence.domain.Vehicle;
+import com.bae.service.VehicleService;
 
 @RestController
 public class VehicleController {

@@ -1,12 +1,12 @@
-package com.bae.vehicle.service;
+package com.bae.service;
 
 import java.util.List;
 
 import org.springframework.stereotype.Service;
 
 //import com.bae.user.persistence.repo.UserRepo;
-import com.bae.vehicle.persistence.domain.Vehicle;
-import com.bae.vehicle.persistence.repo.VehicleRepo;
+import com.bae.persistence.domain.Vehicle;
+import com.bae.persistence.repo.VehicleRepo;
 
 @Service
 public class VehicleService {

@@ -1,4 +1,4 @@
-package com.bae.issue.rest;
+package com.bae.rest;
 
 import java.util.List;
 
@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 
-import com.bae.issue.persistence.domain.Issue;
-import com.bae.issue.service.IssueService;
+import com.bae.persistence.domain.Issue;
+import com.bae.service.IssueService;
 
 @RestController
 public class IssueController {
